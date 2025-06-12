@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/umin/Desktop/Yumin/Homepage/yms1204.github.io/app/layout\":[\"static/media/e4af272ccee01ff0-s.p.woff2\",\"static/media/e5a4b6cc4d9f838f-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
