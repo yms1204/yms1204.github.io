@@ -17,3 +17,23 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# local env files
+.env
+
+# next.js cache
+.next/cache
+# next.js build cache
+.next/cache-loader
+# next.js static files
+.next/static
+# next.js serverless functions
+.next/serverless
+# next.js serverless functions cache
+.next/serverless-cache
+# next.js images
+.next/images
+# next.js build output
+.next/build-manifest.json
+# next.js export
+.next/export
