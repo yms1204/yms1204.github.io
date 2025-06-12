@@ -1,0 +1,37 @@
+[
+    {   
+        "id": "2025-CHI",
+        "authors": "Seokhyeon Park, <strong><u>Yumin Song</u></strong>, Soohyun Lee, Jaeyoung Kim, and Jinwook Seo",
+        "title": "Leveraging Multimodal LLm for Inspirational User Interface Search",
+        "venue": "In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)",
+        "url" : "https://doi.org/10.1145/3706598.3714213",
+        "doi": "10.1145/3706598.3714213",
+        "series": "CHI '25",
+        "year": 2025,
+        "type": "Conference Full Paper",
+        "pdf": "pdf/2025-chi.pdf",
+        "teaser": "img/2025-CHI-teaser.jpg"
+    },
+    {
+        "id": "2025-Pvis",
+        "authors": "Min Hyeong Kim, <u><strong>Yumin Song</strong></u>, Yungun Kim, Aeri Cho, Soohyun Lee, Hyeon Jeon, and Jinwook Seo",
+        "title": "Automated Pipeline for Detecting and Analyzing Misleading Visual Elements",
+        "venue": "Proceedings of the 18th IEEE Pacific Visualization Conference (PacificVis '25), Taipei, Taiwan",
+        "series": "PacificVis '25",
+        "year": 2025,
+        "type": "Conference Short Paper",
+        "pdf": "pdf/2025-pvis.pdf",
+        "teaser": "img/2025-Pvis-teaser.jpg"
+    },
+    {
+        "id": "2025-CVPR-workshop",
+        "authors": "Yeonsang Shin, Jihwan Kim, <strong><u>Yumin Song</u></strong>, Kyungseung Lee, Hyunhee Chung, Taeyoung Na",
+        "title": "Generating Animated Layouts as Structured Text Representations",
+        "venue": "CVPR 2025 Workshop on AI for Content Creation (AI4CC)",
+        "year": 2025,
+        "type": "Workshop Paper",
+        "pdf": "pdf/2025-cvpr-workshop.pdf",
+        "teaser": "img/2025-cvpr-workshop-teaser.jpg",
+        "url": "https://yeonsangshin.github.io/projects/Vaker/"
+    }
+]
