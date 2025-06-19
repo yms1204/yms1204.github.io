@@ -1,15 +1,15 @@
 import type React from "react";
 import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
-// import { Rethink_Sans } from "next/font/google";
+import { Rethink_Sans } from "next/font/google";
 import "../styles/globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
-// const rethinkSans = Rethink_Sans({
-//   subsets: ["latin"],
-//   weight: ["400", "500", "600", "700"],
-//   variable: "--font-rethink-sans",
-// });
+const rethinkSans = Rethink_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-rethink-sans",
+});
 
 export const metadata: Metadata = {
   title: "Yumin Song - Personal Homepage",
@@ -24,8 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body className={rethinkSans.className} suppressHydrationWarning={true}>{children}</body> */}
-      <body className="font-rethink-sans" suppressHydrationWarning={true}>{children}</body>
+      <body className={rethinkSans.className} suppressHydrationWarning={true}>{children}</body>
+      {/* <body className="font-rethink-sans" suppressHydrationWarning={true}>{children}</body> */}
     </html>
   );
 }
