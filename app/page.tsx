@@ -46,12 +46,11 @@ export default function HomePage() {
             <Link href={profile.socials.twitter} aria-label="Twitter">
               <FaSquareXTwitter className="h-5 w-5 [color:var(--secondary)] hover:[color:var(--main-color)]" />
             </Link>
-            <Link href="/cv.pdf" aria-label="CV">
-              {/* <HiOutlineDocumentText className="h-5 w-5 text-gray-500 hover:text-blue-600" /> */}
+            {/* <Link href="/cv.pdf" aria-label="CV">
                 <span className="inline-flex h-5 w-5 text-[1rem] font-bold [color:var(--secondary)] hover:[color:var(--main-color)] leading-none" style={{ fontFamily: "inter" }}>
                   CV
                 </span>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
