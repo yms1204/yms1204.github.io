@@ -2,7 +2,7 @@
   "name": "Yumin Song",
   "age": 24,
   "website": "https://yms1204.github.io",
-  "bio": "Hello! I'm <strong>Yumin Song</strong>, a Master's student at the [<span style=\"color: var(--main-dark-color)\">Human-Computer Interaction Lab</span>](//hcil.snu.ac.kr) at [<span style=\"color: var(--main-dark-color)\">Seoul National University</span>](//snu.ac.kr), advised by Professor Jinwook Seo. \n \nMy research interests lie in Human-AI Interaction and interactive system design, with a particular focus on supporting creative practices.",
+  "bio": "Hello! I'm <strong>Yumin Song</strong>, a Master's student at the [<span style=\"color: var(--main-dark-color)\">Human-Computer Interaction Lab</span>](//hcil.snu.ac.kr) at [<span style=\"color: var(--main-dark-color)\">Seoul National University</span>](//snu.ac.kr), advised by Professor [<span style=\"color: var(--main-dark-color)\">Jinwook Seo</span>](//http://hcil.snu.ac.kr/people/jinwook-seo). \n \nMy research interests lie in Human-AI Interaction and interactive system design, with a particular focus on supporting creative practices.",
   "position": "Master's Student",
   "affiliation": "SNU, Korea",
   "socials": {
