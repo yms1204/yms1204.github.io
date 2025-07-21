@@ -21,7 +21,8 @@
         "year": 2025,
         "type": "Conference Short Paper",
         "pdf": "pdf/2025-pvis.pdf",
-        "teaser": "img/2025-Pvis-teaser.jpg"
+        "teaser": "img/2025-Pvis-teaser.jpg",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11021031?casa_token=S3cWbVn2xoQAAAAA:92RPdB0vSe28YgWasiVaxmyQpcDBwjOEVF6VtdoyFJ1JHi-Ybsn9PjGfQYEPCCyUf6hMFBi5Tsk"
     },
     {
         "id": "2025-CVPR-workshop",
