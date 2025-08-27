@@ -17,6 +17,9 @@ import { HiOutlineDocumentText } from "react-icons/hi2";
 export default function HomePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <head>
+        <link rel="icon" href="img/favicon.jpg" />
+      </head>
       {/* Header */}
       <header className="mb-12">
         <h1 className="text-left text-lg font-semibold [color:var(--main-dark-color)]">
