@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   description: "Yumin Homepage",
   generator: "v0.dev",
   icons: {
-    icon: "/img/favicon.jpg",
-    shortcut: "/img/favicon.jpg",
-    apple: "/img/favicon.jpg",
+    icon: "/img/favicon.png",
+    shortcut: "/img/favicon.png",
+    apple: "/img/favicon.png",
   },
 };
 
