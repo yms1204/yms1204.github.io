@@ -12,9 +12,14 @@ const rethinkSans = Rethink_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Yumin Song - Personal Homepage",
-  description: "Academic portfolio of Yumin Song, Master's student at SNU",
+  title: "Yumin Song",
+  description: "Yumin Homepage",
   generator: "v0.dev",
+  icons: {
+    icon: "/img/favicon.jpg",
+    shortcut: "/img/favicon.jpg",
+    apple: "/img/favicon.jpg",
+  },
 };
 
 export default function RootLayout({
