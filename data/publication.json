@@ -1,5 +1,43 @@
 [
-    {   
+    {
+        "id": "2026-arXiv-TailVis",
+        "authors": "<strong><u>Yumin Song</u></strong>, Seokhyeon Park, Soohyun Lee, Aeri Cho, John Joon Young Chung, Hyeon Jeon, and Jinwook Seo",
+        "title": "TailVis: Expressive Chart Refinement Preserving Data-Binding Integrity",
+        "venue": "arXiv preprint arXiv:2607.25386",
+        "series": "arXiv '26",
+        "year": 2026,
+        "type": "Preprint",
+        "pdf": "",
+        "teaser": "",
+        "url": "https://arxiv.org/abs/2607.25386"
+    },
+    {
+        "id": "2026-CHI",
+        "authors": "Seokhyeon Park, Soohyun Lee, Eugene Choi, Hyunwoo Kim, Minkyu Kweon, <strong><u>Yumin Song</u></strong>, and Jinwook Seo",
+        "title": "Bridging Gulfs in UI Generation through Semantic Guidance",
+        "venue": "In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26), Barcelona, Spain",
+        "doi": "10.1145/3772318.3791966",
+        "series": "CHI '26",
+        "year": 2026,
+        "type": "Conference Full Paper",
+        "pdf": "",
+        "teaser": "",
+        "url": "https://doi.org/10.1145/3772318.3791966"
+    },
+    {
+        "id": "2026-CHI-EA",
+        "authors": "Seokweon Jung, Jiwon Song, <strong><u>Yumin Song</u></strong>, Jinwook Seo, and Ha-Kyung Hidy Kong",
+        "title": "A Scoping Review on How HCI Researchers Visualize Thematic Analysis Results",
+        "venue": "In Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA '26), Barcelona, Spain",
+        "doi": "10.1145/3772363.3798541",
+        "series": "CHI EA '26",
+        "year": 2026,
+        "type": "Extended Abstract",
+        "pdf": "",
+        "teaser": "",
+        "url": "https://doi.org/10.1145/3772363.3798541"
+    },
+    {
         "id": "2025-CHI",
         "authors": "Seokhyeon Park, <strong><u>Yumin Song</u></strong>, Soohyun Lee, Jaeyoung Kim, and Jinwook Seo",
         "title": "Leveraging Multimodal LLm for Inspirational User Interface Search",
