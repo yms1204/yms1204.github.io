@@ -8,7 +8,7 @@
         "year": 2026,
         "type": "Preprint",
         "pdf": "",
-        "teaser": "",
+        "teaser": "img/2026-tailvis-teaser.png",
         "url": "https://arxiv.org/abs/2607.25386"
     },
     {
@@ -21,7 +21,7 @@
         "year": 2026,
         "type": "Conference Full Paper",
         "pdf": "",
-        "teaser": "",
+        "teaser": "img/2026-gulf.webp",
         "url": "https://doi.org/10.1145/3772318.3791966"
     },
     {

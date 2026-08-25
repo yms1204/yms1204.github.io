@@ -134,8 +134,12 @@ body {
 .pub-teaser{
   width: 160px;
   height: 105px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
   object-fit: contain;
+}
+
+.pub-teaser:has(img) {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .pub-teaser img {
