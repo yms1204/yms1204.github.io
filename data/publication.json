@@ -7,7 +7,9 @@
         "series": "VIS '26",
         "year": 2026,
         "type": "Conference Full Paper",
-        "pdf": "",
+        "pdf": "pdf/2026-tailvis.pdf",
+        "demo": "https://tailvis.github.io/TailVis/",
+        "code": "https://github.com/tailvis/TailVis",
         "teaser": "img/2026-tailvis-teaser.png",
         "url": "https://arxiv.org/abs/2607.25386"
     },
@@ -40,7 +42,7 @@
     {
         "id": "2025-CHI",
         "authors": "Seokhyeon Park, <strong><u>Yumin Song</u></strong>, Soohyun Lee, Jaeyoung Kim, and Jinwook Seo",
-        "title": "Leveraging Multimodal LLm for Inspirational User Interface Search",
+        "title": "Leveraging Multimodal LLM for Inspirational User Interface Search",
         "venue": "In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)",
         "url" : "https://doi.org/10.1145/3706598.3714213",
         "doi": "10.1145/3706598.3714213",

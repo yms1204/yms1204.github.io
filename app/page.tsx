@@ -1,6 +1,5 @@
 import Link from "next/link";
-import ReactDOM from 'react-dom'
-import { Mail, FileText } from "lucide-react";
+import { FileText, ExternalLink, Github } from "lucide-react";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -9,10 +8,6 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import profile from "../data/profile.json";
 import Publication from "../data/publication.json";
-import "../styles/globals.css";
-import { HiOutlineDocumentText } from "react-icons/hi2";
-
-
 
 export default function HomePage() {
   return (
@@ -46,11 +41,6 @@ export default function HomePage() {
             <Link href={profile.socials.twitter} aria-label="Twitter">
               <FaSquareXTwitter className="h-5 w-5 [color:var(--secondary)] hover:[color:var(--main-color)]" />
             </Link>
-            {/* <Link href="/cv.pdf" aria-label="CV">
-                <span className="inline-flex h-5 w-5 text-[1rem] font-bold [color:var(--secondary)] hover:[color:var(--main-color)] leading-none" style={{ fontFamily: "inter" }}>
-                  CV
-                </span>
-            </Link> */}
           </div>
         </div>
 
@@ -73,7 +63,6 @@ export default function HomePage() {
         </p>
         {Publication.map((pub, i) => (
           <div key={i} className="flex gap-4 mb-8">
-            {/* <div className="w-40 h-28 bg-gray-200 flex-shrink-0"> */}
             <div className="pub-teaser">
               {pub.teaser && (
                 <img
@@ -99,14 +88,23 @@ export default function HomePage() {
                   </ReactMarkdown>
                 </div>
               <p className="text-sm mb-2 [color:var(--Gray3)]">{pub.venue}</p>
-              {pub.pdf && (
-            <Link
-              className="button"
-              href={pub.pdf}
-            >
-              <FileText className="h-4 w-4 mr-1" /> PDF
-            </Link>
-              )}
+              <div className="flex flex-wrap gap-2">
+                {pub.pdf && (
+                  <Link className="button" href={pub.pdf}>
+                    <FileText className="h-4 w-4 mr-1" /> PDF
+                  </Link>
+                )}
+                {pub.demo && (
+                  <Link className="button" href={pub.demo} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-4 w-4 mr-1" /> Demo
+                  </Link>
+                )}
+                {pub.code && (
+                  <Link className="button" href={pub.code} target="_blank" rel="noopener noreferrer">
+                    <Github className="h-4 w-4 mr-1" /> Code
+                  </Link>
+                )}
+              </div>
             </div>
           </div>
         ))}

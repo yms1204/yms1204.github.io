@@ -1,11 +1,9 @@
-import { Main } from "next/document";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -68,7 +66,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-rethink-sans)", "ui-sans-serif", "system-ui"],
+        sans: ["Arial", "Helvetica", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
