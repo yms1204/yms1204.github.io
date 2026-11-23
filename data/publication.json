@@ -1,7 +1,7 @@
 [
     {
         "id": "2026-arXiv-TailVis",
-        "authors": "<strong><u>Yumin Song</u></strong>, Seokhyeon Park, Soohyun Lee, Aeri Cho, John Joon Young Chung, Hyeon Jeon, and Jinwook Seo",
+        "authors": "<strong><u>Yumin Song</u></strong>, Seokhyeon Park, Soohyun Lee, Aeri Cho, Hyeon Jeon, John Joon Young Chung, and Jinwook Seo",
         "title": "TailVis: Expressive Chart Refinement Preserving Data-Binding Integrity",
         "venue": "IEEE Transactions on Visualization and Computer Graphics, to be presented at 2026 IEEE Visualization and Visual Analytics.",
         "series": "VIS '26",
